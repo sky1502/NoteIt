@@ -1,0 +1,64 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+    height: 100%;
+    width: 18%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #818181;
+    display: block;
+}
+
+.card {
+    font-size: 0.5em;
+    background-color: transparent;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.main {
+    margin-left: 19%;
+    /* Same as the width of the sidenav */
+}
+
+#nnote {
+    margin-right: 1%;
+    width: 99%;
+    height: 20em;
+    resize: none;
+    color: brown;
+}
+
+#noteit {
+    margin: auto;
+    display: block;
+}
+
+input[type=text] {
+    width: 99%;
+    margin-bottom: 0.5%;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}

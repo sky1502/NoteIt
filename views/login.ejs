@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/CSS/Login-Register-Page.css">
+</head>
+
+<body>
+    <h1>Log In to NoteIt</h1>
+    <div id="forms">
+        <form id="Login" action="/auth/login" method="POST">
+
+            <div class="imgcontainer ">
+                <img src="/Images/Login.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="email"><b>E-mail</b></label>
+                <input type="email" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <span class="psw">
+                <a href = "/forgotpass">Forgot password?</a>
+            </span>
+                <button type="submit">Login</button>
+                <a href="/register"><button type="button">Register Now</button></a>
+            </div>
+        </form>
+    </div>
+    <div id="foot">
+        <footer>
+            <p>
+                <span>All Rights Reserved</span>
+                <span>
+                <img src="/Images/FB.jpg ">
+                <img src="/Images/Insta.png ">
+                <img src="/Images/Twitter.png ">
+                </span>
+                <span style="float: right; ">Developed by Gagan Singhal.</span>
+
+            </p>
+        </footer>
+    </div>
+
+
+</body>
+
+</html>

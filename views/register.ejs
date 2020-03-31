@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/CSS/Login-Register-Page.css">
+</head>
+
+<body>
+    <h1>Register to NoteIt</h1>
+    <div id="forms">
+        <form id="Registration" action="/auth/register" method="POST">
+            <div class="imgcontainer">
+                <img src="/Images/Login.png" alt="Avatar" class="avatar">
+            </div>
+
+            <div class="container">
+                <label for="fname"><b>First Name</b></label>
+                <input type="text" placeholder="Enter First Name" name="fname" required>
+                <label for="lname"><b>Last Name</b></label>
+                <input type="text" placeholder="Enter Last Name" name="lname" required>
+                <label for="email"><b>Email ID</b></label>
+                <input type="email" placeholder="Enter Email Id" name="email" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <label for="cpsw"><b>Confirm Password</b></label>
+                <input type="password" placeholder="Enter Password" name="cpsw" required>
+                <button type="submit">Register</button>
+                <a href="/login"><button type="button">Go Back</button></a>
+            </div>
+        </form>
+    </div>
+    <div id="foot">
+        <footer>
+            <p>
+                <span>All Rights Reserved</span>
+                <span>
+                <img src="/Images/FB.jpg ">
+                <img src="/Images/Insta.png ">
+                <img src="/Images/Twitter.png ">
+            </span>
+                <span style="float: right;">Developed by Gagan Singhal.</span>
+
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>

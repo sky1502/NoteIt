@@ -1,0 +1,119 @@
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5vw;
+    margin: 0% 0% auto 0%;
+    background-color: #4CAF50;
+    opacity: 0.8;
+    width: 100%;
+    text-align: center;
+    border-width: thin;
+    border-color: black;
+}
+
+#forms {
+    display: block;
+    margin-top: 2%;
+}
+
+form {
+    font-size: 1.7vw;
+    width: 25%;
+    margin: auto;
+    border-style: double;
+    border-color: #888282;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    font-size: 1.5vw;
+    width: 100%;
+    padding: 3%;
+    margin: 1% 0;
+    display: inline-block;
+    border: 2% solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1% 1.5%;
+    margin: 1% 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5vw;
+    width: 100%;
+}
+
+
+/* Add a hover effect for buttons */
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+/* Center the avatar image inside this container */
+
+.imgcontainer {
+    text-align: center;
+    margin: 2% 0 1% 0;
+}
+
+
+/* Avatar image */
+
+img.avatar {
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+/* Add padding to containers */
+
+.container {
+    padding: 1.2%;
+}
+
+
+/* The "Forgot password" text */
+
+span.psw {
+    font-size: 1.5vw;
+    float: right;
+}
+
+footer img {
+    float: right;
+    width: 2%;
+    height: 2%;
+}
+
+#foot {
+    margin-top: 2%;
+    font-size: 1.3vw;
+    margin: 0 0 0 0;
+    background-color: #4CAF50;
+    color: black;
+    position: fixed;
+    width: 100%;
+    top: 96%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+footer p {
+    margin: 0;
+}
