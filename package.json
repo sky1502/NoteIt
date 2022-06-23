@@ -15,7 +15,7 @@
     "express-session": "^1.17.0",
     "fs": "0.0.1-security",
     "http-errors": "~1.6.3",
-    "jsdom": "^16.2.2",
+    "jsdom": "^16.5.0",
     "morgan": "~1.9.1",
     "mysql": "^2.18.1",
     "passport": "^0.4.1",
